@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Angie | Portfolio</title>
+<title>Angelie Buen | Portfolio</title>
 
 <style>
     *{
@@ -14,13 +14,13 @@
     }
 
     body{
-        background:#f5f7fa;
+        background:#F5EDF2;
         color:#333;
         line-height:1.6;
     }
 
     header{
-        background:#1f2937;
+        background:#400720;
         color:white;
         text-align:center;
         padding:60px 20px;
@@ -54,11 +54,27 @@
     }
 
     .card{
-        background:white;
-        padding:25px;
-        border-radius:10px;
-        box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        color: white;
+		padding:25px;
+		border-radius:10px;
+		box-shadow:0 2px 8px rgba(0,0,0,0.1);
     }
+	
+	/* Social Media */
+	.social{
+		background:#89395d;
+	}
+
+	/* Documentation */
+	.documentation{
+		background:#89395d;
+;
+	}
+
+	/* Professor */
+	.professor{
+		background:#89395d;
+	}
 
     .skills{
         display:flex;
@@ -67,10 +83,11 @@
     }
 
     .skill{
-        background:#e5e7eb;
+        background:#89395d;
         padding:8px 15px;
         border-radius:20px;
         font-size:0.9rem;
+		color: #FFFFFF;
     }
 
     .project{
@@ -80,6 +97,24 @@
         margin-bottom:15px;
         box-shadow:0 2px 8px rgba(0,0,0,0.1);
     }
+	
+	.sample-btn{
+		display:inline-block;
+		margin-top:15px;
+		background:#89395d;
+		color:white;
+		padding:10px 18px;
+		border-radius:6px;
+		text-decoration:none;
+		font-size:0.9rem;
+		font-weight:bold;
+		transition:0.3s;
+	}
+
+	.sample-btn:hover{
+		background:#5d0a2f;
+		text-decoration:none;
+	}
 
     footer{
         text-align:center;
@@ -96,22 +131,43 @@
     a:hover{
         text-decoration:underline;
     }
+	
+	.profile-img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
+	}
 </style>
 </head>
 <body>
 
 <header>
-    <h1>Angie</h1>
-    <p>Social Media Manager | Documentation Specialist | Professor</p>
+    <img src="images/angie.png" alt="Angelie Buen" class="profile-img">
+
+    <h1>Angelie Buen</h1>
+
+    <p>
+        Social Media Manager | Documentation Specialist | Professor
+    </p>
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-        I am a professional with experience in social media management,
-        technical documentation, training development, and higher education.
-        My background combines creativity, communication, and process
-        improvement to help organizations grow and operate efficiently.
+        I am an IT professional and educator with a strong foundation in both technical instruction and academic leadership. I bring a unique blend of hands-on programming expertise, structured documentation skills, and people management experience, developed across education and IT-focused environments.
+		<br>
+		<br>
+		I have 8 years of experience teaching Senior High School and College IT students, specializing in computer programming for desktop, mobile, and web applications. My teaching approach emphasizes clarity, real-world application, 	and building strong technical fundamentals, enabling students to transition confidently from theory to practice.
+		<br>
+		<br>
+		In addition, I have 3 years of experience in education management, serving as Program Head and Academic Head. In this role, I led and supported faculty teams, oversaw academic operations, and ensured effective local implementation of institutional policies and guidelines set by the Head Office. This experience strengthened my capabilities in leadership, process alignment, and operational execution.
+		<br>
+		<br>
+		Currently, I work remotely in IT Documentation Management and Design while also serving as a Marketing Staff and Social Media Manager. I create clear, structured, and user-centered technical documentation, including SOPs, system documentation, training materials, onboarding assets, and knowledge bases that support operational efficiency and user adoption. In addition, I contribute to marketing initiatives through content creation, social media management, and brand communication, helping organizations strengthen their online presence, build trust with their audience, and communicate their value effectively.
     </p>
 </section>
 
@@ -120,7 +176,7 @@
 
     <div class="card-container">
 
-        <div class="card">
+        <div class="card social">
             <h3>Social Media Management</h3>
             <p>
                 Content planning, engagement strategies, campaign management,
@@ -128,7 +184,7 @@
             </p>
         </div>
 
-        <div class="card">
+        <div class="card documentation">
             <h3>Documentation Specialist</h3>
             <p>
                 SOP creation, process documentation, training materials,
@@ -136,7 +192,7 @@
             </p>
         </div>
 
-        <div class="card">
+        <div class="card professor">
             <h3>Professor & Trainer</h3>
             <p>
                 Teaching IT, business, and technology subjects while designing
@@ -153,16 +209,23 @@
     <div class="skills">
         <div class="skill">Social Media Strategy</div>
         <div class="skill">Content Creation</div>
-        <div class="skill">LinkedIn Marketing</div>
-        <div class="skill">Instagram Marketing</div>
+		<div class="skill">Brand Communication</div>
+		<div class="skill">Canva</div>
+		<div class="skill">Adobe Creative Suite</div>
+        <div class="skill">CRM Management (HubSpot)</div>
+        <div class="skill">Marketing</div>
+		<div class="skill">Zapier</div>
         <div class="skill">Technical Writing</div>
         <div class="skill">SOP Development</div>
-        <div class="skill">Canva</div>
-        <div class="skill">HubSpot</div>
+        <div class="skill">Knowledge Base Management</div>
+		<div class="skill">Process Mapping & Flowchart Design</div>
         <div class="skill">Email Marketing</div>
         <div class="skill">Training Development</div>
         <div class="skill">Project Management</div>
+		<div class="skill">Stakeholder Management</div>
+		<div class="skill">Cross-Functional Collaboration & Team Leadership</div>
         <div class="skill">AI Tools</div>
+		<div class="skill">Python</div>
     </div>
 </section>
 
@@ -170,37 +233,56 @@
     <h2>Portfolio Highlights</h2>
 
     <div class="project">
-        <h3>Social Media Campaign Management</h3>
-        <p>
-            Planned and managed content calendars, audience engagement,
-            and performance reporting for business clients.
-        </p>
-    </div>
+		<h3>Social Media Campaign Management</h3>
+		<p>
+			Planned and managed content calendars, audience engagement,
+			and performance reporting for business clients.
+		</p>
 
-    <div class="project">
-        <h3>Technical Documentation & SOPs</h3>
-        <p>
-            Developed scalable SOPs, process maps, onboarding guides,
-            and knowledge base documentation for IT and operations teams.
-        </p>
-    </div>
+		<a href="https://www.dropbox.com/scl/fo/dwauclxtj2h98borbgedx/AH8veD1RZSZvoSLSkrtDtcM?rlkey=bvqugi4wf9ss33qyjce93lqqk&st=91xj5im5&dl=0"
+		   target="_blank"
+		   class="sample-btn">
+		   View Samples →
+		</a>
+	</div>
 
-    <div class="project">
-        <h3>Training & Education</h3>
-        <p>
-            Designed and delivered courses, workshops, and assessments
-            covering IT systems, databases, automation, and UX concepts.
-        </p>
-    </div>
+	<div class="project">
+		<h3>Technical Documentation & SOPs</h3>
+		<p>
+			Developed scalable SOPs, process maps, onboarding guides,
+			and knowledge base documentation for IT and operations teams.
+		</p>
+
+		<a href="https://www.dropbox.com/scl/fo/kgxsnsz6d8wwbpco0gys6/ABNUCR1djItfwwyhRIWLFIM?rlkey=2kzgruu8zdo7izwbo3zp0j0wf&st=ppud5012&dl=0"
+		   target="_blank"
+		   class="sample-btn">
+		   View Samples →
+		</a>
+	</div>
+
+	<div class="project">
+		<h3>Training & Education</h3>
+		<p>
+			Designed and delivered courses, workshops, and assessments
+			covering IT systems, databases, automation, and UX concepts.
+		</p>
+
+		<a href="https://www.dropbox.com/scl/fo/kqxpc0e98oiqb98sc4cgk/ACgl0QcfvjT0iuUf0ypvoFg?rlkey=xv1w317roi7ba5neb4a4n8fnt&st=ff50msl0&dl=0"
+		   target="_blank"
+		   class="sample-btn">
+		   View Samples →
+		</a>
+	</div>
 
 </section>
 
 <section>
     <h2>Contact</h2>
 
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="#">Your LinkedIn Profile</a></p>
-    <p>Portfolio Files: <a href="#">View Samples</a></p>
+    <p>Email: <b>angeliexbuen@gmail.com</b></p>
+    <p>LinkedIn: <b><a href="https://www.linkedin.com/in/angeliebuen93">Check Out LinkedIn Profile</a></b></p>
+	<p>Resume: <b><a href="https://www.dropbox.com/scl/fi/sau7mui2ejzrulsmirn5j/Resume_AngelieBuen.pdf?rlkey=txs91hmgtct5chwgsr72oakhn&st=9166fjxj&dl=0">Download Resume</a></b></p>
+    <p>Portfolio Files: <b><a href="https://www.dropbox.com/scl/fo/eytxkx9rkurv6dk813vi5/ACQWKdOx1UEwo-cmaU0Z3C4?rlkey=08kyzgpstrmg682qoffuf7d6b&st=tcnvprbk&dl=0">View Samples</a></b></p>
 </section>
 
 <footer>
